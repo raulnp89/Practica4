@@ -1,0 +1,250 @@
+/* Estilos para menus desplegables y buscador*/
+
+.funcionalidades {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  padding-block: 30px;
+  gap: 150px;
+  font-weight: bold;
+
+}
+
+.formato-botones {
+  display: flex;
+  margin-left: 10px;
+  fill: white;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+  max-width: 200px;
+}
+
+.filter-by-categories {
+  color: white;
+  font-weight: bold;
+  width: 200px;
+}
+
+.filter-categories option {
+  background-color: rgb(26, 29, 36);
+  color: white;
+}
+.sort-categories {
+  color: white;
+  font-weight: bold;
+  width: 200px;
+}
+
+.sort-categories option {
+  background-color: rgb(26, 29, 36);
+  color: white;
+}
+#barra-busqueda {
+  background-color: white;
+  height: 30px;
+  width: 300px;
+  display: flex;
+  font-size: 20px;
+  color: black;
+  border-radius: 5px;
+}
+
+#search-header {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+  fill: white;
+  text-transform: initial;
+  justify-content: start;
+  align-items: start;
+  color: white;
+  width: 300px;
+  position: relative;
+}
+
+.lupa:hover {
+  fill: tomato;
+}
+
+.lupa {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  fill: white;
+}
+
+.search-suggestions {
+  max-height: 280px;
+  opacity: 0;
+  pointer-events: none;
+  padding: 0;
+  overflow-y: auto;
+}
+
+#search-filter {
+  width: 200px;
+  margin-right: 200px;
+}
+.sort-filter {
+  max-width: 200px;
+}
+
+/* Estilos para grid */
+
+#button-grid:hover {
+  cursor: pointer;
+  fill: deeppink;
+}
+
+.movie-container-grid {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  min-height: 100vh;
+  gap: 40px;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.grid-movie {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-poster {
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.grid-title {
+  margin-bottom: 2px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.grid-data {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.movie-description-heading {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.description-grid {
+  margin: 6px 0;
+  line-height: 1.4;
+}
+
+.movie-other {
+  line-height: 1.4;
+  padding: 5px 0;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+.movie-other:last-child {
+  border: none;
+}
+
+.movie-other span {
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.director-grid {
+  line-height: 1.4;
+  padding: 5px 0;
+  border-block: 1px solid #c0c0c0;
+}
+
+.actors-grid {
+  line-height: 1.4;
+  padding: 5px 0;
+  border-bottom: 1px solid #c0c0c0;
+}
+
+/* Estilos para list */
+
+#button-list:hover {
+  cursor: pointer;
+  fill: deeppink;
+}
+
+.movie-container-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.list-poster {
+  border-radius: 8px;
+  margin-bottom: 10px;
+  width: 100px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.list-title {
+  margin-bottom: 2px;
+  font-weight: bold;
+  margin-inline: 20px;
+  font-size: 1.1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-data {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-inline: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: flex-start;
+}
+
+.description-list {
+  letter-spacing: 1px;
+  margin-inline: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  justify-self: flex-start;
+}
+
+.director-list {
+  letter-spacing: 1px;
+  margin-inline: 10px;
+  display: flex;
+}
+
+.actors-list {
+  letter-spacing: 1px;
+  margin-inline: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-movie {
+  height: 150px;
+  display: grid;
+  grid-template-columns: 1fr 0.8fr 1fr 5fr 1.5fr 2fr;
+  margin-top: 10px;
+  justify-items: start;
+  align-items: center;
+}
+
+.movie-container-list {
+  display: none;
+}
