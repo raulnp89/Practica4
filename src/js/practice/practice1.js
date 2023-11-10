@@ -5,7 +5,9 @@ import { showList } from "../practice/lista";
 import { addCategory } from "./filtro-categoria";
 import { addSort } from "./sort";
 import { buscador } from "./buscador";
-/*************************************/
+import { sortByTitleAsc } from "./sort";
+import { sortByTitleDesc } from "./sort";
 
+/*************************************/
 
 /*************************************/
