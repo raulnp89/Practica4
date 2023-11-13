@@ -1,19 +1,19 @@
 import { categories } from "../data/movie-categories";
 import { movies } from "../data/movies";
-export { buscador };
+// export { buscador };
 
-const searchHeader = document.getElementById("search-header");
-const inputSearch = searchHeader.querySelector("#barra-busqueda");
-const searchSuggestions = document.querySelector(".search-suggestions");
-const searchLink = document.querySelector("a");
+// const searchHeader = document.getElementById("search-header");
+// const inputSearch = searchHeader.querySelector("#barra-busqueda");
+// const searchSuggestions = document.querySelector(".search-suggestions");
+// const searchLink = document.querySelector("a");
 
-function buscador() {
-  inputSearch.addEventListener("input", () => {
-    console.log("funciona");
-  });
-}
+// function buscador() {
+//   inputSearch.addEventListener("input", () => {
+//     console.log("funciona");
+//   });
+// }
 
-buscador();
+// buscador();
 
 // export {buscador}
 
